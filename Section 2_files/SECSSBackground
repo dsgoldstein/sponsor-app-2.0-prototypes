@@ -1,0 +1,74 @@
+/* Hide the Add Repeat Block for Child and keep the Delete Repeat Block
+[data-omni-key="Child"] [aria-label="Add a new block"] .btnLabel {
+    display:none;
+}. -- NOT HIDDEN NOW */
+
+/* Hide the Add and Delete button for the Locked Child rows related to ARI */
+[data-omni-key="ChildLocked"] .slds-p-right_large {
+    display:none!important;
+}
+
+
+/* Button formatting. Key value must match element name exactly */ 
+/* Set Values buttons seem to need their own separate entry */
+[data-omni-key="SaveForLater"] button {
+    background: #ffffff!important;
+    color: #005EA2!important;
+    font-weight: 700;
+    border:2px solid #005EA2;
+}
+/*  Edit Setion Button for CMs */
+[data-omni-key="SendBackToSponsor"] button {
+    background: #ffffff!important;
+    color: #005EA2!important;
+    font-weight: 700;
+    border:2px solid #005EA2;
+}
+[data-omni-key="RefreshListA"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="RefreshListB1"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="RefreshListB2"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="Submit"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="CMSave"] button {
+    background: #ffffff!important;
+    color: #005EA2!important;
+    font-weight: 700;
+    border:2px solid #005EA2;
+}
+[data-omni-key="SendBackToSponsor2"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="Approve"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="GoHome"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+[data-omni-key="CloseModal"] button {
+    background: #005EA2!important;
+    font-weight: 700;
+}
+
+/* Add Delete Button */
+div.slds-accordion__summary runtime_omnistudio_common-button button {
+    font-family: lato;
+    color: #FFFFFF!important;
+    background: #005EA2!important;
+    background-clip: border-box;
+    border-radius: 4px;
+    border:1px solid rgb(27,27,27);
+}
